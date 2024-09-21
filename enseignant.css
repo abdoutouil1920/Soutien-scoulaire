@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 50px; /* Modifier la taille de l'image si nécessaire */
+    height: 50px; /* Modifier la taille de l'image si nécessaire */
+    object-fit: contain;
+}
+
+nav h1 {
+    margin: 0;
+   margin-left: 45%;
+   margin-top: -5%; /* Pour occuper l'espace restant */
+}
+
+ul li.left {
+    padding-bottom: 20px;
+    margin-right: auto; /* Pour aligner l'image à gauche */
+}
+
+ul li a {
+    color: #fff; /* Changer la couleur du texte si nécessaire */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #ddd;
+}
+
+
+
+
+section {
+    padding: 1rem;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+input, button {
+    margin: 0.5rem 0;
+}
+
+input {
+    padding: 0.2rem;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.modifier-btn {
+    background-color: #ddd;
+    color: #333;
+}
+
+.modifier-btn:hover {
+    background-color: #eee;
+}
+
+.supprimer-btn {
+    background-color: #f00;
+    color: #fff;
+}
+
+.supprimer-btn:hover {
+    background-color: #b00;
+}
+
+.valider-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.valider-btn:hover {
+    background-color: #1e7e34;
+}
